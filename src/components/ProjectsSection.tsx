@@ -7,7 +7,7 @@ const projects = [
     title: "Portfolio Interactivo",
     description: "Un portfolio personal con animaciones avanzadas y efectos visuales inmersivos. Implementado con React, TypeScript y Motion.",
     tech: ["React", "TypeScript", "Motion", "Tailwind CSS"],
-    github: "https://github.com/example/portfolio",
+    github: "https://github.com/SteMt323/Portfolo_SteMt323.git",
     type: "Web Development"
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     title: "Wiki Project",
     description: "Uno de los projects presentados por el curso de web de CS50, una wiki colaborativa personalizada visualmente.",
     tech: ["Python", "Django"],
-    github: "https://github.com/SteMt323/CS50w-Project0.git",
+    github: "https://github.com/SteMt323/Cs50w-project1.git",
     type: "PJ-CS50-WB"
   },
   {

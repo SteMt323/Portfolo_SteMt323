@@ -48,7 +48,8 @@ export function Navigation({ activeSection, onNavigate }: NavigationProps) {
               transition={{ delay: 0.2 }}
               className="text-white text-xl tracking-wider"
             >
-              SteMt323
+              <a className= "sidebar-links">SteMt323</a>
+              
             </motion.div>
             
             <div className="hidden md:flex items-center space-x-8">

@@ -6,7 +6,7 @@ export function HeroSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const texts = ['Ing. Sistemas', 'Apasionado por el Dev Web', 'Pensador Innovador'];
+  const texts = ['Ing. Sistemas', 'Apasionado por el Desarrollo Web', 'Pensador Innovador'];
 
   useEffect(() => {
     const timeout = setTimeout(() => {

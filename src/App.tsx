@@ -4,6 +4,7 @@ import { HeroSection } from './components/HeroSection';
 import { GallerySection } from './components/GallerySection';
 import { AboutSection } from './components/AboutSection';
 import { ProjectsSection } from './components/ProjectsSection';
+import { SocialSection } from './components/SocialSection';
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('inicio');
@@ -16,7 +17,7 @@ export default function App() {
     document.documentElement.style.scrollBehavior = 'smooth';
     
     const handleScroll = () => {
-      const sections = ['inicio', 'galeria', 'sobre-mi', 'proyectos'];
+      const sections = ['inicio', 'galeria', 'sobre-mi', 'redes', 'proyectos'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -48,6 +49,7 @@ export default function App() {
       <HeroSection />
       <GallerySection />
       <AboutSection />
+      <SocialSection />
       <ProjectsSection />
     </div>
   );

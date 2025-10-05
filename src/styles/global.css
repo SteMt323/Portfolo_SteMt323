@@ -289,6 +289,71 @@ html {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
+/* Background text effect for the SocialSection (adapted from /prueba/styles.css)
+   This replaces the previous parallax layers for #redes and is scoped to #redes
+   so other sections are unaffected. The effect uses background-clip:text
+   with a fixed background image to create the image-in-text look. */
+
+#redes {
+  position: relative; /* create stacking context for background text */
+  overflow: hidden;
+  width: 100vw; /* span full viewport width so there are no black dead zones */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* large, centered paragraph that shows the background image through text */
+#redes .bg-text {
+  position: absolute;
+  inset: 0; /* fill the section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* let clicks pass to controls above */
+  z-index: 0;
+}
+
+#redes .bg-text p {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  /* responsive large text that can wrap across multiple lines */
+  font-size: 0.5rem;
+  line-height: 0.95;
+  color: rgba(255,255,255,0.12);
+  background-image: url("../components/assets/letters_parallax.jpg");
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  white-space: normal; /* allow wrapping */
+  max-width: none;
+  width: 100vw;
+  overflow: hidden;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Ensure the glass containers and content render above the bg text */
+#redes .glass,
+#redes .player,
+#redes .slider-playlist,
+#redes .playlist,
+#redes .swiper {
+  position: relative;
+  z-index: 10;
+}
+
+/* small responsive tweak: scale down the text on small screens */
+@media (max-width: 640px) {
+  #redes .bg-text p {white-space: normal; }
+}
+
 .sidebar-links {
     color: #fff;
     text-decoration: none;

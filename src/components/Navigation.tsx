@@ -23,7 +23,9 @@ export function Navigation({ activeSection, onNavigate }: NavigationProps) {
     { id: 'inicio', label: 'Inicio' },
     { id: 'galeria', label: 'Galería' },
     { id: 'sobre-mi', label: 'Sobre Mí' },
+    { id: 'redes', label: 'Redes' },
     { id: 'proyectos', label: 'Proyectos' },
+    
   ];
 
   const scrollToTop = () => {
@@ -48,8 +50,7 @@ export function Navigation({ activeSection, onNavigate }: NavigationProps) {
               transition={{ delay: 0.2 }}
               className="text-white text-xl tracking-wider"
             >
-              <a className= "sidebar-links">SteMt323</a>
-              
+              SteMt323
             </motion.div>
             
             <div className="hidden md:flex items-center space-x-8">

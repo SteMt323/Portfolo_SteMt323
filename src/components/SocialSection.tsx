@@ -4,14 +4,12 @@ import StePin from "./assets/SteMt323PIN.jpg";
 import SystemDown from "./assets/System_of_a_down.jpeg";
 import Afterlife from "./assets/afterlife.jpeg";
 import Animal from "./assets/animal_I_have_become.jpeg";
-import DisturbedImg from "./assets/disturbed.jpg";
 import TwoFeetImg from "./assets/two_feet.jpeg";
 
 const SONGS_TITLES = [
   { title: "Lonely Day", artist: "System of a Down", url: SystemDown },
   { title: "Afterlife", artist: "Evanescence", url: Afterlife },
   { title: "Animal I Have Become", artist: "Three Days Grace", url: Animal },
-  { title: "Stricken", artist: "Disturbed", url: DisturbedImg },
   { title: "You?", artist: "Two Feet", url: TwoFeetImg },
 ];
 

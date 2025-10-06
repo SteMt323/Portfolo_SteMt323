@@ -6,37 +6,37 @@ import { ImageWithFallback } from "./fig/ImageWithFallback";
 const galleryImages = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1729554608003-5ec8be42da1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwYXJ0JTIwY3liZXJwdW5rfGVufDF8fHx8MTc1OTQ2MTE3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    url: "",
     title: "non",
     category: "non"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzU5NDQwNTI3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    url: "",
     title: "non",
     category: "non"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1608278827697-4f4bb6ea08f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZW9uJTIwbGlnaHRzJTIwZGFya3xlbnwxfHx8fDE3NTk0MzY3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    url: "",
     title: "non",
     category: "non"
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1573384293689-0327bf65bd86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwYXJjaGl0ZWN0dXJlfGVufDF8fHx8MTc1OTQ1MDAwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    url: "",
     title: "non",
     category: "non"
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1462332420958-a05d1e002413?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMG5lYnVsYXxlbnwxfHx8fDE3NTk0NjExOTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    url: "",
     title: "non",
     category: "non"
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1687716189063-55c3ccc06b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwYWVzdGhldGljJTIwbWluaW1hbHxlbnwxfHx8fDE3NTk0NjExOTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    url: "",
     title: "non",
     category: "non"
   }

@@ -133,7 +133,7 @@ export function GallerySection() {
             {/* Close button */}
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 z-60 glass-dark p-2 rounded-full text-white hover:bg-white/20 transition-colors"
+              className="absolute top-4 right-4 z-50 glass-dark p-2 rounded-full text-white hover:bg-white/20 transition-colors"
             >
               <X size={24} />
             </button>
@@ -141,13 +141,13 @@ export function GallerySection() {
             {/* Navigation buttons */}
             <button
               onClick={prevImage}
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 z-60 glass-dark p-2 rounded-full text-white hover:bg-white/20 transition-colors"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 z-50 glass-dark p-2 rounded-full text-white hover:bg-white/20 transition-colors"
             >
               <ChevronLeft size={24} />
             </button>
             <button
               onClick={nextImage}
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 z-60 glass-dark p-2 rounded-full text-white hover:bg-white/20 transition-colors"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 z-50 glass-dark p-2 rounded-full text-white hover:bg-white/20 transition-colors"
             >
               <ChevronRight size={24} />
             </button>

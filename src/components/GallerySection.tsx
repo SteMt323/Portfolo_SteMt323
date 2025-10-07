@@ -2,44 +2,29 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { ImageWithFallback } from "./fig/ImageWithFallback";
+import Composition from "./assets/Composición.jpg";
+import Estela from "./assets/Estela.jpg";
+import Iluminacion from "./assets/Iluminacion.jpg";
 
 const galleryImages = [
   {
     id: 1,
-    url: "",
-    title: "non",
-    category: "non"
+    url: Composition,
+    title: "Composition",
+    category: "Light Shadows"
   },
   {
     id: 2,
-    url: "",
-    title: "non",
-    category: "non"
+    url: Estela,
+    title: "Estela",
+    category: "Light Trails"
   },
   {
     id: 3,
-    url: "",
-    title: "non",
-    category: "non"
+    url: Iluminacion,
+    title: "Creative Lighting",
+    category: "Aurea Ilumination"
   },
-  {
-    id: 4,
-    url: "",
-    title: "non",
-    category: "non"
-  },
-  {
-    id: 5,
-    url: "",
-    title: "non",
-    category: "non"
-  },
-  {
-    id: 6,
-    url: "",
-    title: "non",
-    category: "non"
-  }
 ];
 
 export function GallerySection() {

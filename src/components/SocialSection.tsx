@@ -5,12 +5,13 @@ import SystemDown from "./assets/System_of_a_down.jpeg";
 import Afterlife from "./assets/afterlife.jpeg";
 import Animal from "./assets/animal_I_have_become.jpeg";
 import TwoFeetImg from "./assets/two_feet.jpeg";
+import { time } from "framer-motion";
 
 const SONGS_TITLES = [
-  { title: "Lonely Day", artist: "System of a Down", url: SystemDown },
-  { title: "Afterlife", artist: "Evanescence", url: Afterlife },
-  { title: "Animal I Have Become", artist: "Three Days Grace", url: Animal },
-  { title: "You?", artist: "Two Feet", url: TwoFeetImg },
+  { title: "Lonely Day", artist: "System of a Down", url: SystemDown, time: "2:47" },
+  { title: "Afterlife", artist: "Evanescence", url: Afterlife, time: "4:09" },
+  { title: "Animal I Have Become", artist: "Three Days Grace", url: Animal, time: "3:51" },
+  { title: "You?", artist: "Two Feet", url: TwoFeetImg, time: "2:49" },
 ];
 
 export function SocialSection() {
@@ -118,7 +119,7 @@ export function SocialSection() {
                     <p className="font-medium">{s.title}</p>
                     <p className="text-gray-400">{s.artist}</p>
                   </div>
-                  <div className="text-gray-400">—:--</div>
+                  <div className="text-gray-400">{s.time}</div>
                 </div>
               </div>
             ))}
